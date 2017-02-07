@@ -14,6 +14,7 @@
 		436109A51E4866030027FFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436109A41E4866030027FFED /* Assets.xcassets */; };
 		436109A81E4866030027FFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436109A61E4866030027FFED /* LaunchScreen.storyboard */; };
 		436109B31E4866150027FFED /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 436109B11E4866150027FFED /* DrawView.m */; };
+		436109B61E486B2C0027FFED /* PasteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 436109B51E486B2C0027FFED /* PasteButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		436109A91E4866030027FFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436109B01E4866150027FFED /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		436109B11E4866150027FFED /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		436109B41E486B2C0027FFED /* PasteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteButton.h; sourceTree = "<group>"; };
+		436109B51E486B2C0027FFED /* PasteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 		436109B21E4866150027FFED /* PasteView */ = {
 			isa = PBXGroup;
 			children = (
+				436109B41E486B2C0027FFED /* PasteButton.h */,
+				436109B51E486B2C0027FFED /* PasteButton.m */,
 			);
 			path = PasteView;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436109B61E486B2C0027FFED /* PasteButton.m in Sources */,
 				436109A01E4866030027FFED /* ViewController.m in Sources */,
 				4361099D1E4866030027FFED /* AppDelegate.m in Sources */,
 				436109B31E4866150027FFED /* DrawView.m in Sources */,
@@ -332,6 +338,7 @@
 				436109AE1E4866030027FFED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
